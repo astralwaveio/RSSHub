@@ -180,6 +180,9 @@
   "/50forum/": [
     "sddiky"
   ],
+  "/51cto/index/recommend": [
+    "cnkmmk"
+  ],
   "/52hrtt/:area?/:type?": [
     "nczitzk"
   ],
@@ -788,8 +791,9 @@
   "/bloomberg/authors/:id/:slug/:source?": [
     "josh"
   ],
-  "/bloomberg/:site": [],
-  "/bloomberg/": [],
+  "/bloomberg/:site?": [
+    "bigfei"
+  ],
   "/bluestacks/release/5": [
     "TonyRL"
   ],
@@ -6049,6 +6053,9 @@
   ],
   "/xboxfan/news": [
     "XXY233"
+  ],
+  "/xianbao/:category?": [
+    "nashi23"
   ],
   "/xiaoheihe/add2cart/:platform": [
     "ladeng07"
