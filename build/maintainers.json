@@ -473,9 +473,6 @@
   "/atcoder/post/:language?/:keyword?": [
     "nczitzk"
   ],
-  "/atptour/news/:lang?": [
-    "LM1207"
-  ],
   "/auto-stats/:category?": [
     "nczitzk"
   ],
@@ -704,8 +701,7 @@
     "DIYgod"
   ],
   "/bilibili/vsearch/:kw/:order?/:disableEmbed?/:tid?": [
-    "pcrtool",
-    "DIYgod"
+    "Symty"
   ],
   "/bilibili/watchlater/:uid/:disableEmbed?": [
     "JimenezLi"
@@ -2291,10 +2287,7 @@
     "Yoge-Code"
   ],
   "/gov/mmht/*": [],
-  "/gov/moa/:suburl{.+}": [
-    "Origami404",
-    "lyqluis"
-  ],
+  "/gov/moa/:suburl{.+}": [],
   "/gov/moa/sjzxfb/:category{.+}?": [],
   "/gov/moa/zdscxx/:category{.+}?": [],
   "/gov/moe/:type": [
@@ -6462,9 +6455,6 @@
   ],
   "/zhiy/posts/:author": [
     "TonyRL"
-  ],
-  "/zhonglun/research/article/:language{[a-zA-Z0-9-]+}?": [
-    "nczitzk"
   ],
   "/zhubai/:id": [
     "naixy28"
