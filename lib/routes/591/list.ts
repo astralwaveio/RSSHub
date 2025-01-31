@@ -124,9 +124,9 @@ export const route: Route = {
     name: 'Rental house',
     maintainers: ['Yukaii'],
     handler,
-    description: `:::tip
+    description: `::: tip
   Copy the URL of the 591 filter housing page and remove the front part \`https://rent.591.com.tw/?\`, you will get the query parameters.
-  :::`,
+:::`,
 };
 
 async function handler(ctx) {
@@ -157,14 +157,14 @@ async function handler(ctx) {
         };
     });
 
+    ctx.set('json', {
+        houses,
+    });
+
     return {
         title: '591 租屋 - 自訂查詢',
         link: queryUrl,
         description: `591 租屋 - 自訂查詢, query: ${query}`,
         item: items,
     };
-
-    ctx.set('json', {
-        houses,
-    });
 }
