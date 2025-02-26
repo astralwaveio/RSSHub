@@ -5,9 +5,9 @@ import { parseDate } from '@/utils/parse-date';
 import { isValidHost } from '@/utils/valid-host';
 
 export const route: Route = {
-    path: '/:id',
+    path: '/posts/:id',
     categories: ['blog'],
-    example: '/zhubai/via',
+    example: '/zhubai/posts/via',
     parameters: { id: '`id` 为竹白主页 url 中的三级域名，如 via.zhubai.love 的 `id` 为 `via`' },
     features: {
         requireConfig: false,
@@ -20,9 +20,9 @@ export const route: Route = {
     name: '文章',
     maintainers: ['naixy28'],
     handler,
-    description: `:::tip
+    description: `::: tip
   在路由末尾处加上 \`?limit=限制获取数目\` 来限制获取条目数量，默认值为\`20\`
-  :::`,
+:::`,
 };
 
 async function handler(ctx) {
